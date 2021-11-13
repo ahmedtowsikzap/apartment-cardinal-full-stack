@@ -1,0 +1,74 @@
+.img-cover img{
+    width: 100%;
+
+}
+
+.fix-h3{
+
+    font-size: 20px;
+    font-family: cursive;
+    background: conic-gradient(
+      #cd560c 16.666%, 
+      #fe862a 16.666%, 
+      #8f341d 33.333%, 
+      #e36e14 33.333%, 
+      #b76018 50%, 
+      #8B9862 50%, 
+      #8B9862 66.666%, 
+      #d7ae7c 66.666%, 
+      #d42750 83.333%, 
+      #c6263e 83.333%);
+      background-size: 100%;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-text-fill-color: transparent;
+      -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      animation: rainbow-text-animation-rev 2.2s ease forwards;
+      background-size: 100%;
+    background-repeat: repeat;  
+  }
+  .fix-h3:hover{
+
+    animation: rainbow-text-animation 3.1s ease forwards;
+}
+@keyframes rainbow-text-animation {
+  0% {
+      background-size: 57%;
+      background-position: 0 0;
+    }
+    20% {
+      background-size: 57%;
+      background-position: 0 1em;
+    }
+    67% {
+      background-size: 300%;
+      background-position: -9em 1em;
+    }
+}
+.para{
+    font-weight: 900;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    background: linear-gradient(11deg, rgb(7, 7, 7) 0%, rgb(0, 0, 0) 47%, rgb(0, 0, 0) 100%);
+    background-size: 100%;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-text-fill-color: transparent;
+      -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      animation: rainbow-text-animation-rev 1.2s ease forwards;
+      background-size: 100%;
+    background-repeat: repeat;
+    
+  }
+  .fix-head{
+
+    position:absolute;
+    padding-left: 38px;
+    margin-top: 12px;
+    font-style: italic;
+  }
+  
