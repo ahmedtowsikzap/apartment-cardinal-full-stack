@@ -1,6 +1,6 @@
 ................Projects Description.................
 
-Project Name: Travel Cruise
+Project Name: Apartment Cardinal
 
 project link : https://apartment-cardinal.web.app/
 This project is based on Full-stack with React framework , Firebasae, MongoDB, React-Bootstrap & made with love.
